@@ -1,0 +1,57 @@
+.gray{
+    display: block;
+    background-color:gray;
+    margin: 2px;
+    border: 1px solid black;}
+#mark .neon li:nth-child(odd){
+    background-color:gray;
+    border: 1px solid black;
+}
+#mark .neon li:nth-child(even){
+    background-color: white;
+}
+.cook li:nth-child(3):hover{
+    cursor:pointer;
+}
+.cook li:nth-child(5):hover{
+    cursor:pointer;}
+.cook li:nth-child(4){
+    background-color: rosybrown;
+}
+h1 {
+    text-align: center;
+    font-size: 22px;
+}
+
+#link{
+    font-style: italic;
+}
+#list1{
+    text-align: center;
+}
+#list2{
+    text-align: center;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (min-width: 992px) {
+    .container{
+        justify-content: space-around;
+    }
+    .col-lg-6 {
+        width: 50%;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .col-md-12 {
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .col-xs-12 {
+        width: 100%;
+    }
+}
