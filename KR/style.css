@@ -1,0 +1,200 @@
+#id5{
+    border: 2px solid blueviolet;
+    border-radius: 6px;
+    cursor: pointer;
+ }
+#id5:visited{
+    color: green;
+    background-color: skyblue;
+}
+#id5:link{
+ background-color: fuchsia;
+ color: blue;
+ }
+#id5:hover{
+    color:red;
+    background-color: darkblue;
+}
+#id5:active{
+    background-color: black;
+    color: palevioletred;
+}
+.firstblock{
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    width: 100%;
+    background-color: blue;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    margin: 5px;
+}
+.secondblock{
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    width: 100%;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    background-color: greenyellow;
+    margin: 5px;
+}
+.thirdblock{
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    width: 100%;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    background-color: palevioletred;
+    margin: 5px;
+}
+.fourblock{
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    width: 100%;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    background-color: skyblue;
+    margin: 5px;
+}
+.firstblock h3{
+    border: 2px solid black;
+    border-left: 0;
+    border-bottom: 0;
+    background-color: mediumorchid;
+    width: 55px;
+    color: teal;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+.secondblock h3{
+    border: 2px solid black;
+    border-left: 0;
+    border-bottom: 0;
+    background-color: mediumspringgreen;
+    border-radius: 5px;
+    width:75px ;
+    padding: 5px;
+    color: black;
+    margin-bottom: 0;
+}
+.thirdblock h3{
+    border: 2px solid black;
+    border-left: 0;
+    border-bottom: 0;
+    background-color: purple;
+    border-radius: 5px;
+    width:85px ;
+    padding: 5px;
+    color: greenyellow;
+    margin-bottom: 0;
+}
+.fourblock h3{
+    border: 2px solid black;
+    border-left: 0;
+    border-bottom: 0;
+    background-color: palegoldenrod;
+    border-radius: 5px;
+    width:120px ;
+    padding: 5px;
+    color: aqua;
+    margin-bottom: 0;
+}
+.zagolovku{
+    font-family: 'Kenia', cursive;
+}
+.mainblock h3{
+    font-family: 'La Belle Aurore', cursive;
+}
+.mainblock p, ul, li, th, td{
+    font-family: 'Zen Dots', cursive;
+}
+table{
+    border: 2px solid red;
+    margin-top: 2px;
+}
+th{
+    background-color: mediumspringgreen;
+    border: 2px solid red;
+}
+td{
+    background-color: forestgreen;
+    border: 2px solid black;
+}
+
+#id1{
+    font-size: 120%;
+}
+#id2{
+    font-size: 120%;
+}
+#id3{
+    font-size: 120%;
+}
+#id4{
+    font-size: 120%;
+}
+p{
+    color: yellow;
+}
+table{
+    color:  slateblue;
+}
+ol{
+    color: black;
+}
+.mainblock{
+    width: 100%;
+    display: flex;
+}
+.item{
+    display: flex;
+}
+img{
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 290px;
+}
+@media (min-width: 1200px){
+    .col-lg-3{
+        width: 25%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    .mainblock{
+        flex-wrap: wrap;
+    }
+    .col-md-4{
+        width: 33.33%;
+    }
+    .col-md-12{
+        width: 100%
+    }
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .mainblock{
+        flex-wrap: wrap;
+    }
+    .col-sm-6{
+        width: 50%;
+    }
+}
+@media (max-width: 768px){
+    .mainblock{
+        flex-direction: column;
+    }
+    .col-xs-12{
+        width: 100%;
+    }
+}
